@@ -1,10 +1,18 @@
 ﻿int count = 0;
 int n = 2;
 double time = 0;
-double distance = 10000;
-double speedF1 = 1;
-double speedF2 = 2;
-double speedDog = 5;
+
+Console.Write("Введите растоянние между друзьями ");
+double distance = Convert.ToDouble(Console.ReadLine());
+
+Console.Write("Введите скорость первого друга ");
+double speedF1 = Convert.ToDouble(Console.ReadLine());
+
+Console.Write("Введите скорость второго друга ");
+double speedF2 = Convert.ToDouble(Console.ReadLine());
+
+Console.Write("Введите скорость собаки ");
+double speedDog = Convert.ToDouble(Console.ReadLine());
 
 while (distance > 1)
 {
